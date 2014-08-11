@@ -16,7 +16,7 @@ source 'https://rubygems.org'
 # Note that the lack of whitespace matters in those two lines:
 #ruby=jruby-1.7.8
 #ruby-gemset=razor-server
-ruby '1.9.1', :engine => 'ruby'
+ruby '1.9.1', :engine => 'ruby', :engine_version => '1.9.1'
 
 gem 'torquebox', '~> 3.1.1'
 gem 'sinatra'
